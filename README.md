@@ -2,97 +2,118 @@
 
 ## Overview
 
-This repository contains the source code for my personal portfolio website, showcasing my professional journey as a Senior Data Scientist. The site demonstrates my expertise in data science, machine learning, and business analytics across various industries.
+This repository contains the source code for my personal portfolio website, showcasing my professional journey as a Senior Data Scientist and AI enthusiast.
 
-## Website Content
+The website highlights experience across e-commerce, marketplaces, insurance, and analytics-led product environments, with focus areas in forecasting, inventory optimization, monetization analytics, and decision-support systems.
+
+## Live Website Structure
+
+The portfolio is a single-page website (`index.html`) with the following sections:
+
+- `About`
+- `Impact & Achievements`
+- `Professional Experience`
+- `Practice Projects`
+- `Education & Certifications`
+- `Skills & Technologies`
+- `Contact`
+
+## Content Summary
 
 ### About
-- **Professional Summary** - Results-driven product development across Business, Product, and Data Science
-- **Core Competencies** - Forecasting systems, BI platforms, experimentation, and cross-functional delivery
-- **Technical Stack** - Python, SQL, AWS, Redshift, SageMaker, Tableau, Metabase, Kedro
+- Professional summary covering Business, Product, and Data Science intersection
+- Core competencies:
+  - Forecasting systems
+  - BI platforms
+  - Experimentation
+  - Cross-functional delivery
+- Technical stack: Python, SQL, AWS, Redshift, SageMaker, Tableau, Metabase, Kedro
 
 ### Impact & Achievements
-- **30K SKUs Forecasted** - Scaled forecasting methodology from 3K to 30K SKUs
-- **50% Stock-out Reduction** - Through automated PO generation and buffer management
-- **3-4 Week Time Savings** - Reduced quarterly ordering effort via automation
-- **$400K Monthly Savings** - Delivered through vendor performance tracking
-- **Operational Efficiency** - Data-driven decision making for East region operations
-- **Automated BI Systems** - Built centralized analytics ecosystems
+- 30K SKUs forecasted (scaled from 3K)
+- ~50% stock-out reduction
+- Quarterly PO workflow reduced from 3-4 weeks to 3-4 days
+- $400K monthly savings through business improvement programs
+- Operational efficiency enablement for regional sales operations
+- Automated BI systems for decision support
 
 ### Professional Experience
-- **Senior Data Scientist** at Razor Group (2022-Present)
-- **Senior Business Analyst** at Meesho (2020-2021) 
-- **Program Manager** at OYO (2019-2020)
-- **Product Analyst** at Flipkart (2019)
-- **Decision Scientist** roles at Mu Sigma (2015-2018)
+- Razor Group - Senior Data Scientist (Jan 2022 - Present)
+- Meesho - Senior Business Analyst (Jul 2020 - Dec 2021)
+- OYO - Program Manager (Jul 2019 - Jun 2020)
+- Flipkart - Product Analyst (Jan 2019 - Jun 2019)
+- Mu Sigma - Decision Scientist / Trainee Decision Scientist (Oct 2015 - Dec 2018)
 
-### Professional Projects
-- **Commercial Decision Engine** - Forecasting systems scaling from 3K to 30K SKUs
-- **PO Automation** - Inventory optimization reducing effort from weeks to days
-- **Ads Monetization BI** - Centralized analytics and recommendation engines
-- **Vendor Performance Reporting** - Tracking systems for business improvement
+### Key Project Highlights (within Experience)
+- Commercial Decision Engine - Forecasting
+- PO Automation - Inventory Optimization
+- Ads Monetization Analytics Platform
 
 ### Practice Projects
-- **Knowledge Graph–Enhanced RAG System** - Neo4j + Wikipedia data for enhanced retrieval
-- **Florida Energy Demand Forecasting App** - Streamlit UI with Docker deployment
-- **MLOps AWS Deployment** - Complete cloud deployment workflow
-- **Causal Inference Analysis** - Statistical analysis with regression models
-- **Statistical Analysis & Hypothesis Testing** - Applied statistical methods
-- **Telecom Churn Analysis** - Multi-technique ML analysis
+Selected projects from the ISB AMPBA learning journey (19+ total):
+- Knowledge Graph-Enhanced RAG System
+- Florida Energy Demand Forecasting App
+- MLOps - AWS-based App Deployment
+- Causal Inference Analysis
+- Statistical Analysis & Hypothesis Testing
+- Telecom Churn Analysis
+
+Full project repository:
+- `https://github.com/abhi-2693/Abhinav_demo_projects`
 
 ### Education & Certifications
-- **Advanced Management Programme in Business Analytics and AI** - Indian School of Business (ISB)
-- **MITx MicroMasters in Supply Chain Management**
-- **TensorFlow in Practice Specialization** - DeepLearning.AI
-- **Applied Data Science Specialist** - IBM
-- Multiple Coursera certifications in Data Science, Blockchain, and Business Analytics
+- Indian School of Business (ISB): AMPBA Batch 23 (Jan 2025 - May 2026)
+- MITx MicroMasters: Supply Chain Management (2023)
+- TensorFlow in Practice Specialization (DeepLearning.AI)
+- Applied Data Science Specialist (IBM)
+- Coursera and Mu Sigma certifications
+- B.Tech, Mechanical Engineering (NIT Srinagar)
 
-### Technical Skills
-- **Programming & Languages** - Python, SQL, R
-- **Machine Learning & Analytics** - Forecasting, Optimization, Regression, A/B Testing, Classification, Clustering
-- **Data Engineering & Infrastructure** - Redshift, Kedro, Big Data, ETL/ELT
-- **Cloud & Platforms** - AWS (SageMaker, Lightsail, ECR, EC2), BI Tools, Integration, Containerization
-- **Libraries & Frameworks** - Data Processing, ML Libraries, Deep Learning, Visualization, NLP
-- **Business & Domain Expertise** - E-commerce, Marketplaces, Financial Services, Operations, Product Analytics
+### Skills & Technologies
+- Programming: Python, SQL, R
+- ML & Analytics: Forecasting, Optimization, Regression, A/B Testing, Classification, Clustering
+- Data Engineering: Redshift, Kedro, Big Data, ETL/ELT
+- Cloud & Platforms: AWS, BI tools, integration, Docker
+- Libraries: Pandas, NumPy, Scikit-Learn, TensorFlow, PyTorch, Plotly, NLP stack
+- Domain Expertise: E-commerce, marketplaces, financial services, operations, product analytics
 
 ## Repository Structure
 
-```
-├── index.html          # Main portfolio website (single-page application)
-├── images/             # Company logos and profile photos
-├── Abhinav_Paul_Data_Scientist.pdf  # ATS-compliant resume
-└── CV - Abhinav Paul.pdf              # Graphic resume
+```text
+.
+├── index.html
+├── README.md
+├── images/
+├── Abhinav_Paul_Data_Scientist.pdf
+└── CV - Abhinav Paul.pdf
 ```
 
 ## Technology Stack
 
-- **Frontend**: Pure HTML5, CSS3, JavaScript
-- **Design**: Responsive grid layout with modern UI components
-- **Features**: Smooth scrolling navigation, dropdown menus, card-based layouts
-- **Styling**: Custom CSS with dark theme and green accent colors
-
-## Website Sections
-
-- **About** - Professional summary and core competencies
-- **Impact** - Quantified business achievements and metrics
-- **Experience** - Detailed work history with company logos
-- **Professional Projects** - Key professional project highlights
-- **Practice Projects** - Academic projects from ISB AMPBA program
-- **Education** - Academic background and certifications
-- **Skills** - Comprehensive technical competencies and tools
-- **Contact** - Professional contact information and links
+- Frontend: HTML5, CSS3
+- Architecture: Single-page static portfolio
+- UI Features:
+  - Sticky navigation
+  - Smooth scrolling
+  - Resume dropdown action
+  - Responsive grid layouts
+- Accessibility/Semantics:
+  - Landmark-based structure (`nav`, `header`, `main`, `section`, `footer`)
+  - Keyboard-visible focus states
 
 ## Getting Started
 
-Simply open `index.html` in any modern web browser to view the portfolio. No additional setup or dependencies required.
+1. Clone this repository.
+2. Open `index.html` in any modern web browser.
 
-## Contact Information
+No build tools or dependencies are required.
 
-The portfolio includes contact details and professional links:
-- Email: abhinavp2693@gmail.com
-- LinkedIn: linkedin.com/in/abhinav-paul-a512749b
-- GitHub: github.com/abhi-2693
+## Contact
+
+- Email: `abhinavp2693@gmail.com`
+- LinkedIn: `https://www.linkedin.com/in/abhinav-paul-a512749b`
+- GitHub: `https://github.com/abhi-2693`
 
 ---
 
-*This portfolio represents the professional work and achievements of Abhinav Paul in the field of data science and analytics.*
+This portfolio represents the professional work and achievements of Abhinav Paul in data science and analytics.

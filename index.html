@@ -1,467 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Abhinav Paul | Data Scientist & AI Enthusiast</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-html { scroll-behavior: smooth; }
-body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #071a13; color: #e6f4f1; }
-* { box-sizing: border-box; }
-nav { position: sticky; top: 0; background: #02110c; padding: 16px; text-align: center; z-index: 1000; }
-nav a { margin: 0 18px; color: #5eead4; text-decoration: none; font-weight: 600; }
-nav a:hover { text-decoration: underline; }
-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding: 80px 20px; background: linear-gradient(135deg, #065f46, #047857); }
-.hero-text { max-width: 560px; }
-.hero-text h1 { font-size: 3.2em; margin: 0; }
-.hero-text p { font-size: 1.2em; }
-.hero-ctas { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
-.hero-img img { width: 230px; height: 230px; object-fit: cover; border-radius: 50%; margin: 20px; border: 5px solid white; }
-section { max-width: 1100px; margin: auto; padding: 70px 20px; }
-h2 { color: #34d399; border-bottom: 2px solid #064e3b; padding-bottom: 10px; }
-.card { background: #0b2b22; padding: 22px; border-radius: 12px; margin-top: 20px; border: 1px solid rgba(94, 234, 212, 0.12); }
-.card h3 { margin-top: 0; display: flex; align-items: center; gap: 12px; }
-.card h3 img { height: 32px; width: auto; object-fit: contain; }
-.grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
-@media (max-width: 820px) { .grid-2 { grid-template-columns: 1fr; } }
-.pill-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
-.pill { display: inline-block; padding: 8px 10px; background: rgba(16, 185, 129, 0.15); color: #a7f3d0; border: 1px solid rgba(16, 185, 129, 0.25); border-radius: 999px; font-size: 0.95em; }
-.button { display: inline-block; padding: 12px 16px; background: #10b981; color: #022c22; border-radius: 10px; font-weight: 700; }
-.button.secondary { background: rgba(94, 234, 212, 0.12); color: #5eead4; border: 1px solid rgba(94, 234, 212, 0.25); }
-.button:hover { filter: brightness(1.05); }
-.dropdown { position: relative; display: inline-block; }
-.dropdown-toggle { cursor: pointer; }
-.dropdown-content { display: none; position: absolute; top: 100%; left: 0; background: #0b2b22; border: 1px solid rgba(94, 234, 212, 0.25); border-radius: 10px; margin-top: 6px; min-width: 200px; z-index: 1001; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
-.dropdown-content a { display: block; padding: 12px 16px; color: #5eead4; text-decoration: none; font-weight: 600; border-radius: 0; transition: background 0.2s ease; }
-.dropdown-content a:first-child { border-radius: 10px 10px 0 0; }
-.dropdown-content a:last-child { border-radius: 0 0 10px 10px; }
-.dropdown-content a:hover { background: rgba(16, 185, 129, 0.15); }
-.dropdown:hover .dropdown-content { display: block; }
-.dropdown-toggle::after { content: ' ▾'; font-size: 0.8em; margin-left: 6px; }
-.muted { color: rgba(230, 244, 241, 0.78); }
-.kpi { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; margin-top: 18px; }
-.kpi .card { margin-top: 0; }
-ul.clean { margin: 10px 0 0 18px; }
-ul.clean li { margin: 8px 0; }
-.metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 22px; margin-top: 30px; }
-.metric { background: #064e3b; padding: 28px; border-radius: 14px; text-align: center; }
-.metric h3 { margin: 0; font-size: 2em; color: #a7f3d0; }
-a { color: #5eead4; text-decoration: none; }
-footer { text-align: center; padding: 30px; background: #02110c; }
-</style>
-</head>
-<body>
-<nav>
-<a href="#about">About</a>
-<a href="#impact">Impact</a>
-<a href="#experience">Experience</a>
-<a href="#practice-projects">Practice Projects</a>
-<a href="#education">Education</a>
-<a href="#skills">Skills</a>
-<a href="#contact">Contact</a>
-</nav>
-<header>
-<div class="hero-text">
-<h1>Abhinav Paul</h1>
-<p><strong>Senior Data Scientist</strong></p>
-<p style="font-size: 1.0em;">
-I build results-driven products at the intersection of Business, Product, and Data Science.
-Across e-commerce, hospitlity, and insurance domain, I've delivered forecasting and
-optimization systems, monetization analytics, and decision-support products that translate
-complex data into measurable business outcomes.
-</p>
-<div class="hero-ctas">
-<div class="dropdown">
-<button class="button dropdown-toggle">Download Resume</button>
-<div class="dropdown-content">
-<a href="Abhinav_Paul_Data_Scientist.pdf" target="_blank">ATS-Compliant Resume</a>
-<a href="CV%20-%20Abhinav%20Paul.pdf" target="_blank">Graphic Resume</a>
-</div>
-</div>
-<a class="button secondary" href="https://www.linkedin.com/in/abhinav-paul-a512749b" target="_blank">LinkedIn</a>
-<a class="button secondary" href="https://github.com/abhi-2693" target="_blank">GitHub</a>
-</div>
-<div class="pill-row">
-<span class="pill">Decision Systems</span>
-<span class="pill">Forecasting @ Scale</span>
-<span class="pill">Inventory Optimization</span>
-<span class="pill">Ads Monetization Analytics</span>
-<span class="pill">Experimentation</span>
-</div>
-</div>
-<div class="hero-img">
-<img src="images/Profile.jpg" alt="Abhinav Paul">
-</div>
-</header>
-<section id="about">
-<h2>About</h2>
-<div class="grid-2">
-<div class="card">
-<h3>Professional Summary</h3>
-<p class="muted">As a senior data scientist, I leverage my expertise in Business, Product, and Data Science to build results-driven products across e-commerce, marketplaces, and financial services. I deliver forecasting and optimization systems, monetization analytics, and decision-support products that translate complex data into measurable business outcomes.</p>
-</div>
-<div class="card">
-<h3>Core Competencies</h3>
-<ul class="clean">
-<li><strong>Forecasting systems</strong> - Inventory decision engines and demand planning</li>
-<li><strong>BI platforms</strong> - Centralized analytics and reporting frameworks</li>
-<li><strong>Experimentation</strong> - A/B testing and statistical analysis</li>
-<li><strong>Cross-functional delivery</strong> - Stakeholder alignment and operationalization</li>
-<li><strong>Technical stack</strong> - Python, SQL, AWS, Redshift, SageMaker, Tableau, Metabase, Kedro</li>
-</ul>
-</div>
-</div>
-</section>
+  <head>
+    <meta charset="UTF-8">
+    <title>Abhinav Paul | Data Scientist &amp; AI Enthusiast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      html { scroll-behavior: smooth; }
+      body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #071a13; color: #e6f4f1; }
+      * { box-sizing: border-box; }
+      nav { position: sticky; top: 0; background: #02110c; padding: 16px; text-align: center; z-index: 1000; }
+      nav a { margin: 0 18px; color: #5eead4; text-decoration: none; font-weight: 600; }
+      nav a:hover { text-decoration: underline; }
+      header { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding: 80px 20px; background: linear-gradient(135deg, #065f46, #047857); }
+      .hero-text { max-width: 560px; }
+      .hero-text h1 { font-size: 3.2em; margin: 0; }
+      .hero-text p { font-size: 1.2em; }
+      .intro-text { font-size: 1em; }
+      .hero-ctas { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+      .hero-img img { width: 230px; height: 230px; object-fit: cover; border-radius: 50%; margin: 20px; border: 5px solid white; }
+      section { max-width: 1100px; margin: auto; padding: 70px 20px; }
+      h2 { color: #34d399; border-bottom: 2px solid #064e3b; padding-bottom: 10px; }
+      .card { background: #0b2b22; padding: 22px; border-radius: 12px; margin-top: 20px; border: 1px solid rgba(94, 234, 212, 0.12); }
+      .card h3 { margin-top: 0; display: flex; align-items: center; gap: 12px; }
+      .card h3 img { height: 32px; width: auto; object-fit: contain; }
+      .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+      @media (max-width: 820px) { .grid-2 { grid-template-columns: 1fr; } }
+      .pill-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+      .pill { display: inline-block; padding: 8px 10px; background: rgba(16, 185, 129, 0.15); color: #a7f3d0; border: 1px solid rgba(16, 185, 129, 0.25); border-radius: 999px; font-size: 0.95em; }
+      .button { display: inline-block; padding: 12px 16px; background: #10b981; color: #022c22; border-radius: 10px; font-weight: 700; }
+      .button.secondary { background: rgba(94, 234, 212, 0.12); color: #5eead4; border: 1px solid rgba(94, 234, 212, 0.25); }
+      .button:hover { filter: brightness(1.05); }
+      .dropdown { position: relative; display: inline-block; }
+      .dropdown-toggle { cursor: pointer; }
+      .dropdown-content { display: none; position: absolute; top: 100%; left: 0; background: #0b2b22; border: 1px solid rgba(94, 234, 212, 0.25); border-radius: 10px; margin-top: 6px; min-width: 200px; z-index: 1001; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+      .dropdown-content a { display: block; padding: 12px 16px; color: #5eead4; text-decoration: none; font-weight: 600; border-radius: 0; transition: background 0.2s ease; }
+      .dropdown-content a:first-child { border-radius: 10px 10px 0 0; }
+      .dropdown-content a:last-child { border-radius: 0 0 10px 10px; }
+      .dropdown-content a:hover { background: rgba(16, 185, 129, 0.15); }
+      .dropdown:hover .dropdown-content { display: block; }
+      .dropdown:focus-within .dropdown-content { display: block; }
+      a:focus-visible, button:focus-visible { outline: 2px solid #5eead4; outline-offset: 2px; }
+      .dropdown-toggle::after { content: ' ▾'; font-size: 0.8em; margin-left: 6px; }
+      .muted { color: rgba(230, 244, 241, 0.78); }
+      .kpi { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; margin-top: 18px; }
+      .kpi .card { margin-top: 0; }
+      ul.clean { margin: 10px 0 0 18px; }
+      ul.clean li { margin: 8px 0; }
+      .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 22px; margin-top: 30px; }
+      .metric { background: #064e3b; padding: 28px; border-radius: 14px; text-align: center; }
+      .metric h3 { margin: 0; font-size: 2em; color: #a7f3d0; }
+      a { color: #5eead4; text-decoration: none; }
+      footer { text-align: center; padding: 30px; background: #02110c; }
+    </style>
+  </head>
+  <body>
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#impact">Impact</a>
+      <a href="#experience">Experience</a>
+      <a href="#practice-projects">Practice Projects</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <header>
+      <div class="hero-text">
+        <h1>Abhinav Paul</h1>
+        <p><strong>Senior Data Scientist</strong></p>
+        <p class="intro-text">
+          I build results-driven products at the intersection of Business, Product, and Data Science.
+          Across e-commerce, hospitality, and insurance domains, I've delivered forecasting and
+          optimization systems, monetization analytics, and decision-support products that translate
+          complex data into measurable business outcomes.
+        </p>
+        <div class="hero-ctas">
+          <div class="dropdown">
+            <button type="button" class="button dropdown-toggle">Download Resume</button>
+            <div class="dropdown-content">
+              <a href="Abhinav_Paul_Data_Scientist.pdf" target="_blank" rel="noopener noreferrer">ATS-Compliant Resume</a>
+              <a href="CV%20-%20Abhinav%20Paul.pdf" target="_blank" rel="noopener noreferrer">Graphic Resume</a>
+            </div>
+          </div>
+          <a class="button secondary" href="https://www.linkedin.com/in/abhinav-paul-a512749b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="button secondary" href="https://github.com/abhi-2693" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <div class="pill-row">
+          <span class="pill">Decision Systems</span>
+          <span class="pill">Forecasting @ Scale</span>
+          <span class="pill">Inventory Optimization</span>
+          <span class="pill">Ads Monetization Analytics</span>
+          <span class="pill">Experimentation</span>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="images/Profile.jpg" alt="Abhinav Paul">
+      </div>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Professional Summary</h3>
+            <p class="muted">As a senior data scientist, I leverage my expertise in Business, Product, and Data Science to build results-driven products across e-commerce, marketplaces, and financial services. I deliver forecasting and optimization systems, monetization analytics, and decision-support products that translate complex data into measurable business outcomes.</p>
+          </div>
+          <div class="card">
+            <h3>Core Competencies</h3>
+            <ul class="clean">
+              <li><strong>Forecasting systems</strong> - Inventory decision engines and demand planning</li>
+              <li><strong>BI platforms</strong> - Centralized analytics and reporting frameworks</li>
+              <li><strong>Experimentation</strong> - A/B testing and statistical analysis</li>
+              <li><strong>Cross-functional delivery</strong> - Stakeholder alignment and operationalization</li>
+              <li><strong>Technical stack</strong> - Python, SQL, AWS, Redshift, SageMaker, Tableau, Metabase, Kedro</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-<section id="impact">
-<h2>Impact & Achievements</h2>
-<div class="metrics">
-<div class="card">
-<h3>30K SKUs Forecasted</h3>
-<p>Scaled legacy forecasting methodology from 3K to 30K SKUs at Razor Group</p>
-</div>
-<div class="card">
-<h3>50% Stock-out Reduction</h3>
-<p>Cut out-of-stock rate by ~50% through automated PO generation and buffer inventory management</p>
-</div>
-<div class="card">
-<h3>3-4 Week Time Savings</h3>
-<p>Reduced quarterly PO ordering effort from 3-4 weeks to 3-4 days via automation</p>
-</div>
-<div class="card">
-<h3>$400K Monthly Savings</h3>
-<p>Delivered cost savings through vendor performance tracking and business improvement programs</p>
-</div>
-<div class="card">
-<h3>Operational Efficiency</h3>
-<p>Supported Sales team in East region with data-driven decision making for operational efficiency</p>
-</div>
-<div class="card">
-<h3>Automated BI Systems</h3>
-<p>Built centralized BI ecosystems for data-driven decision making and operations</p>
-</div>
-</div>
-</section>
+      <section id="impact">
+        <h2>Impact &amp; Achievements</h2>
+        <div class="metrics">
+          <div class="card">
+            <h3>30K SKUs Forecasted</h3>
+            <p>Scaled legacy forecasting methodology from 3K to 30K SKUs at Razor Group</p>
+          </div>
+          <div class="card">
+            <h3>50% Stock-out Reduction</h3>
+            <p>Cut out-of-stock rate by ~50% through automated PO generation and buffer inventory management</p>
+          </div>
+          <div class="card">
+            <h3>3-4 Week Time Savings</h3>
+            <p>Reduced quarterly PO ordering effort from 3-4 weeks to 3-4 days via automation</p>
+          </div>
+          <div class="card">
+            <h3>$400K Monthly Savings</h3>
+            <p>Delivered cost savings through vendor performance tracking and business improvement programs</p>
+          </div>
+          <div class="card">
+            <h3>Operational Efficiency</h3>
+            <p>Supported Sales team in East region with data-driven decision making for operational efficiency</p>
+          </div>
+          <div class="card">
+            <h3>Automated BI Systems</h3>
+            <p>Built centralized BI ecosystems for data-driven decision making and operations</p>
+          </div>
+        </div>
+      </section>
 
-<section id="experience">
-<h2>Professional Experience</h2>
-<div class="card">
-<h3><img src="images/Razor Group.png" alt="Razor Group"> Razor Group</h3>
-<h3>Senior Data Scientist (Jan 2022 – Present)</h3>
-<p class="muted">Bengaluru, Karnataka, India · Remote</p>
-<p class="muted">Dept: Commercial (Data Science – Forecasting)</p>
-<ul class="clean">
-<li>Maintaining Manual and Automated Forecasting Apparatus to generate Monthly Long-term Forecast.</li>
-<li>Scaled legacy forecasting methodology from 3K to 30K SKUs.</li>
-<li>Set up training data cleaning and preparation using Redshift models and Kedro pipelines.</li>
-<li>Built a reporting framework for accurate and unbiased backdated forecasting runs.</li>
-</ul>
-<p class="muted">Dept: Tech and Analytics (Data Science)</p>
-<ul class="clean">
-<li><strong>Top of the funnel – Product Opportunity Sourcing Engine:</strong> Identifying opportunities for new product launches to replace end-of-lifecycle products and expand our product portfolio into untapped niche markets across diverse geographic regions.</li>
-<li><strong>PO Calendar – Inventory (Master Production Schedule Algorithm):</strong> To solve OOS issues caused by delays in Purchase Order creation, developed an algorithm that ingests demand plans, current inventory levels, incoming POs, and supply-chain variables (production time, transport duration) to recommend and auto-generate POs in ERP, maintaining buffer inventory levels.</li>
-<li><strong>Demand Planning – Inventory:</strong> Created a demand forecasting model framework evaluating multiple univariate and multivariate models with set performance KPIs; developed reusable inventory data science assets.</li>
-</ul>
-</div>
-<div class="card">
-<h3><img src="images/Meesho.png" alt="Meesho"> Meesho</h3>
-<h3>Senior Business Analyst (Jul 2020 – Dec 2021)</h3>
-<p class="muted">Bengaluru, Karnataka, India</p>
-<p class="muted">Dept: Monetisation</p>
-<ul class="clean">
-<li>Defining new metrics and creating centralized BI for monitoring.</li>
-<li>Setting up and maintaining Data assets for quick decision making.</li>
-<li>Building automated recommendation engines and BI tools for Ads Sales to have better conversations with suppliers, leading to increased efficiency.</li>
-<li>BAU Analysis related to strategic changes needed in business parameters for Ads demand control.</li>
-<li>Designing and executing Ads deductions framework with increased transparency for suppliers and frequency of deductions.</li>
-</ul>
-<p class="muted">Dept: Indonesia</p>
-<ul class="clean">
-<li>Working with F&E and CX team with a wide range of analytical requirements.</li>
-<li>Conducting A/B tests to find effectiveness of product features.</li>
-<li>Planning and executing surveys to get user inclination towards product features.</li>
-<li>Tracking of third-party services taken by the company.</li>
-<li>BAU data requirement for F&E team for day-to-day supplier interaction and performance tracking.</li>
-</ul>
-</div>
-<div class="card">
-<h3><img src="images/OYO.png" alt="OYO"> OYO</h3>
-<h3>Program Manager (Jul 2019 – Jun 2020)</h3>
-<p class="muted">Kolkata, West Bengal, India</p>
-<p class="muted">Supporting Operations and Supply team in East region with data-driven decision making.</p>
-<p class="muted">Dept: Sales</p>
-<ul class="clean">
-<li>Supporting Sales team in East region for operational efficiency with data-driven decision making.</li>
-</ul>
-</div>
-<div class="card">
-<h3><img src="images/Flipkart.png" alt="Flipkart"> Flipkart</h3>
-<h3>Product Analyst (Jan 2019 – Jun 2019)</h3>
-<p class="muted">Bengaluru, Karnataka, India</p>
-<p class="muted">Dept: Payments Product</p>
-<ul class="clean">
-<li>Pattern recognition using customer behavior analysis to identify insights in the payments leg of the customer journey.</li>
-</ul>
-</div>
-<div class="card">
-<h3><img src="images/Mu Sigma.png" alt="Mu Sigma"> Mu Sigma</h3>
-<h3>Decision Scientist (Sep 2017 – Dec 2018)</h3>
-<p class="muted">Bengaluru, Karnataka, India</p>
-<p class="muted">Dept: Delivery Unit</p>
-<ul class="clean">
-<li><strong>Business Improvement Program – Property repair:</strong> Developed a reporting product to track vendor performance and measure gaps.</li>
-<li><strong>Business Improvement Program – Digital Initiative:</strong> Created a reporting product supporting analytical needs for the client's new digital platform product.</li>
-<li><strong>Commercial Operations and Management Portal:</strong> Built a platform-as-a-product to track key performance indicators in Commercial Insurance.</li>
-</ul>
-<h3>Trainee Decision Scientist (Oct 2015 – Aug 2017)</h3>
-<p class="muted">Bengaluru, Karnataka, India</p>
-<p class="muted">Dept: Delivery Unit</p>
-<ul class="clean">
-<li><strong>Motor Recalibration Initiative:</strong> Advanced an existing reporting suite by integrating two lines of business and introducing employee tagging for key metrics across the claims process.</li>
-<li><strong>Motor Claims Analytics:</strong> Maintained and made ad-hoc advances to a reporting suite providing views of key metrics across the claims process.</li>
-</ul>
-</div>
+      <section id="experience">
+        <h2>Professional Experience</h2>
+        <div class="card">
+          <h3><img src="images/Razor Group.png" alt="Razor Group"> Razor Group</h3>
+          <h3>Senior Data Scientist (Jan 2022 – Present)</h3>
+          <p class="muted">Bengaluru, Karnataka, India · Remote</p>
+          <p class="muted">Dept: Commercial (Data Science – Forecasting)</p>
+          <ul class="clean">
+            <li>Maintaining Manual and Automated Forecasting Apparatus to generate Monthly Long-term Forecast.</li>
+            <li>Scaled legacy forecasting methodology from 3K to 30K SKUs.</li>
+            <li>Set up training data cleaning and preparation using Redshift models and Kedro pipelines.</li>
+            <li>Built a reporting framework for accurate and unbiased backdated forecasting runs.</li>
+          </ul>
+          <p class="muted">Dept: Tech and Analytics (Data Science)</p>
+          <ul class="clean">
+            <li><strong>Top of the funnel – Product Opportunity Sourcing Engine:</strong> Identifying opportunities for new product launches to replace end-of-lifecycle products and expand our product portfolio into untapped niche markets across diverse geographic regions.</li>
+            <li><strong>PO Calendar – Inventory (Master Production Schedule Algorithm):</strong> To solve OOS issues caused by delays in Purchase Order creation, developed an algorithm that ingests demand plans, current inventory levels, incoming POs, and supply-chain variables (production time, transport duration) to recommend and auto-generate POs in ERP, maintaining buffer inventory levels.</li>
+            <li><strong>Demand Planning – Inventory:</strong> Created a demand forecasting model framework evaluating multiple univariate and multivariate models with set performance KPIs; developed reusable inventory data science assets.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3><img src="images/Meesho.png" alt="Meesho"> Meesho</h3>
+          <h3>Senior Business Analyst (Jul 2020 – Dec 2021)</h3>
+          <p class="muted">Bengaluru, Karnataka, India</p>
+          <p class="muted">Dept: Monetisation</p>
+          <ul class="clean">
+            <li>Defining new metrics and creating centralized BI for monitoring.</li>
+            <li>Setting up and maintaining Data assets for quick decision making.</li>
+            <li>Building automated recommendation engines and BI tools for Ads Sales to have better conversations with suppliers, leading to increased efficiency.</li>
+            <li>BAU Analysis related to strategic changes needed in business parameters for Ads demand control.</li>
+            <li>Designing and executing Ads deductions framework with increased transparency for suppliers and frequency of deductions.</li>
+          </ul>
+          <p class="muted">Dept: Indonesia</p>
+          <ul class="clean">
+            <li>Working with F&amp;E and CX team with a wide range of analytical requirements.</li>
+            <li>Conducting A/B tests to find effectiveness of product features.</li>
+            <li>Planning and executing surveys to get user inclination towards product features.</li>
+            <li>Tracking of third-party services taken by the company.</li>
+            <li>BAU data requirement for F&amp;E team for day-to-day supplier interaction and performance tracking.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3><img src="images/OYO.png" alt="OYO"> OYO</h3>
+          <h3>Program Manager (Jul 2019 – Jun 2020)</h3>
+          <p class="muted">Kolkata, West Bengal, India</p>
+          <p class="muted">Supporting Operations and Supply team in East region with data-driven decision making.</p>
+          <p class="muted">Dept: Sales</p>
+          <ul class="clean">
+            <li>Supporting Sales team in East region for operational efficiency with data-driven decision making.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3><img src="images/Flipkart.png" alt="Flipkart"> Flipkart</h3>
+          <h3>Product Analyst (Jan 2019 – Jun 2019)</h3>
+          <p class="muted">Bengaluru, Karnataka, India</p>
+          <p class="muted">Dept: Payments Product</p>
+          <ul class="clean">
+            <li>Pattern recognition using customer behavior analysis to identify insights in the payments leg of the customer journey.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3><img src="images/Mu Sigma.png" alt="Mu Sigma"> Mu Sigma</h3>
+          <h3>Decision Scientist (Sep 2017 – Dec 2018)</h3>
+          <p class="muted">Bengaluru, Karnataka, India</p>
+          <p class="muted">Dept: Delivery Unit</p>
+          <ul class="clean">
+            <li><strong>Business Improvement Program – Property repair:</strong> Developed a reporting product to track vendor performance and measure gaps.</li>
+            <li><strong>Business Improvement Program – Digital Initiative:</strong> Created a reporting product supporting analytical needs for the client's new digital platform product.</li>
+            <li><strong>Commercial Operations and Management Portal:</strong> Built a platform-as-a-product to track key performance indicators in Commercial Insurance.</li>
+          </ul>
+          <h3>Trainee Decision Scientist (Oct 2015 – Aug 2017)</h3>
+          <p class="muted">Bengaluru, Karnataka, India</p>
+          <p class="muted">Dept: Delivery Unit</p>
+          <ul class="clean">
+            <li><strong>Motor Recalibration Initiative:</strong> Advanced an existing reporting suite by integrating two lines of business and introducing employee tagging for key metrics across the claims process.</li>
+            <li><strong>Motor Claims Analytics:</strong> Maintained and made ad-hoc advances to a reporting suite providing views of key metrics across the claims process.</li>
+          </ul>
+        </div>
 
-<h2>Key Project Highlights</h2>
-<div class="card">
-<h3>Commercial Decision Engine — Forecasting</h3>
-<p>Scaled forecasting from 3K to 30K SKUs with automated pipelines and back-testing evaluation frameworks.</p>
-</div>
-<div class="card">
-<h3>PO Automation — Inventory Optimization</h3>
-<p>Algorithmic purchase planning reducing effort from weeks to days while cutting stock-outs by half.</p>
-</div>
-<div class="card">
-<h3>Ads Monetization Analytics Platform</h3>
-<p>Centralized BI ecosystem with recommendation engines to optimize supplier targeting.</p>
-</div>
-<section id="practice-projects">
-<h2>Practice Projects</h2>
-<p class="muted">Complete repository of 19+ projects covering advanced analytics, machine learning, and data science applications from ISB AMPBA program.</p>
-<a href="https://github.com/abhi-2693/Abhinav_demo_projects" target="_blank" class="button">View All Projects</a>
-<div class="grid-2">
-<div class="card">
-<h3>Knowledge Graph–Enhanced RAG System</h3>
-<p class="muted">Advanced LLM application combining Neo4j knowledge graphs with Wikipedia data for enhanced retrieval.</p>
-<ul class="clean">
-<li>Built KG + vector hybrid retrieval using Neo4j</li>
-<li>Implemented LangChain orchestration for RAG</li>
-<li>Handled LLM rate limits and configuration</li>
-</ul>
-<a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2014:%20Knowledge%20Graph%E2%80%93enhanced%20RAG%20system%20using%20Wikipedia%20data" target="_blank" class="button secondary">View Project</a>
-</div>
-<div class="card">
-<h3>Florida Energy Demand Forecasting App</h3>
-<p class="muted">End-to-end forecasting application with Streamlit UI and Docker deployment.</p>
-<ul class="clean">
-<li>Structured forecasting pipeline with modular architecture</li>
-<li>Interactive Streamlit interface for predictions</li>
-<li>Docker packaging for production deployment</li>
-</ul>
-<a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2018:%20Forecasting%20App%20%E2%80%94%20Florida%20Energy%20Demand%20Forecasting" target="_blank" class="button secondary">View Project</a>
-</div>
-<div class="card">
-<h3>MLOps — AWS-based App Deployment</h3>
-<p class="muted">Complete MLOps workflow for deploying Streamlit applications on AWS infrastructure.</p>
-<ul class="clean">
-<li>Docker containerization with Docker Compose</li>
-<li>AWS ECR registry setup and deployment</li>
-<li>EC2 instance deployment and configuration</li>
-</ul>
-<a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2009:%20MLOps%20:%20AWS%20based%20App%20deployment%20-%20Practice" target="_blank" class="button secondary">View Project</a>
-</div>
-<div class="card">
-<h3>Causal Inference Analysis</h3>
-<p class="muted">Statistical analysis examining wage relationships using regression and omitted variable bias checks.</p>
-<ul class="clean">
-<li>Built simple vs multiple regression models</li>
-<li>Verified omitted-variable-bias relationships</li>
-<li>Quantified statistical significance of predictors</li>
-</ul>
-<a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2006:%20Causal%20Inference%20checks" target="_blank" class="button secondary">View Project</a>
-</div>
-<div class="card">
-<h3>Statistical Analysis & Hypothesis Testing</h3>
-<p class="muted">Applied statistical methods to examine relationships and test hypotheses using p-values.</p>
-<ul class="clean">
-<li>Null and Alternate Hypothesis formulation</li>
-<li>Statistical significance testing and interpretation</li>
-<li>Practical application of test statistics</li>
-</ul>
-<a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2001:%20Statictical%20Analysis%20:%20Basics%20of%20Hypothesis%20Testing%20and%20undterstanding%20the%20p-value" target="_blank" class="button secondary">View Project</a>
-</div>
-<div class="card">
-<h3>Telecom Churn Analysis</h3>
-<p class="muted">Multi-technique analysis of telecom churn using LDA, logistic regression, survival analysis, and Poisson regression.</p>
-<ul class="clean">
-<li>Applied multiple classification techniques</li>
-<li>Time-to-event analysis with survival models</li>
-<li>Comparative performance evaluation</li>
-</ul>
-<a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2010:%20LDA,%20LR,%20Survival%20Analysis%20and%20PoisReg" target="_blank" class="button secondary">View Project</a>
-</div>
-</div>
-</section>
-</section>
-<section id="education">
-<h2>Education & Certifications</h2>
-<div class="grid-2">
-<div class="card">
-<h3><img src="images/ISB.png" alt="ISB"> Indian School of Business (ISB)</h3>
-<p class="muted">Advanced Management Programme of Business Analytics and AI (AMPBA) — Batch 23 (Jan 2025 – May 2026)</p>
-<ul class="clean">
-<li>Machine Learning (Unsupervised and Supervised for Classification and regression problems)</li>
-<li>Advanced Statistical Modeling and Optimization Techniques</li>
-<li>Big Data and Data Engineering</li>
-<li>Knowledge Graphs, RAG for LLM chatbots</li>
-<li>Deep Learning and Natural Language Processing</li>
-<li>Business and Industry-Specific Analytics Applications like Forecasting, Pricing, Marketing and Supply chain Analytics</li>
-<li>Foundations in Data Analytics</li>
-<li>Business & Industry Applications</li>
-</ul>
-</div>
-<div class="card">
-<h3><img src="images/MIT.png" alt="MIT"> MITx MicroMasters — Supply Chain Management</h3>
-<p class="muted">May 2023 – Dec 2023</p>
-<ul class="clean">
-<li>CTL.SC0x <a href="https://courses.edx.org/certificates/7e27fda800504a238c959ab2df67c482" target="_blank">Supply Chain Analytics</a> (Aug 2023)</li>
-<li>CTL.SC1x <a href="https://courses.edx.org/certificates/cf5a474557b04c8ea01f3019cbbed76e" target="_blank">Supply Chain Fundamentals</a> (Dec 2023)</li>
-</ul>
-<p class="muted">Concepts: Optimization (constrained/unconstrained), Regression, Shortest Path, Traveling Salesman Problem (TSP), Vehicle Routing Problem (VRP), Central Limit Theorem, Linear Programming, Quality Control, Statistical Process Control, Total Quality Management, Design of Experiments, Quality Improvement, Process Capability, Lean Manufacturing, Supply Chain Visibility, Supply Chain Risk Management, Supply Chain Performance Management</p>
-</div>
-<div class="card">
-<h3><img src="images/Coursera.png" alt="Coursera"> TensorFlow in Practice Specialization</h3>
-<p class="muted">DeepLearning.AI — Issued May 2020</p>
-<ul class="clean">
-<li><a href="https://www.coursera.org/account/accomplishments/verify/25Q4ATR3ZB59" target="_blank">Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/verify/DMYUCA6AJQ2U" target="_blank">Convolutional Neural Networks in TensorFlow</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/verify/Z4AEZGFD7T2N" target="_blank">Natural Language Processing in TensorFlow</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/verify/QC8RNJBMS47J" target="_blank">Sequences, Time Series and Prediction</a></li>
-</ul>
-<p class="muted">Completed 4-course TensorFlow Developer Professional Certificate: build and train neural networks, apply convolutions for image recognition, and implement NLP systems for speech understanding and analysis.</p>
-<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/ECQRUA8Y8Y72" target="_blank" class="button secondary">View Specialization Certificate</a>
-</div>
-<div class="card">
-<h3><img src="images/Coursera.png" alt="Coursera"> Applied Data Science Specialist</h3>
-<p class="muted">IBM — Issued Apr 2020</p>
-<ul class="clean">
-<li><a href="https://www.coursera.org/account/accomplishments/verify/28LNGX8ZJ8GT" target="_blank">Python for Data Science, AI & Development</a></li>
-<li></a> Python Project for Data Science</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/verify/725LPJKTTZCN" target="_blank">Data Analysis with Python</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/verify/DZMDSM2ZK9FZ" target="_blank">Data Visualization with Python</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/verify/8GJYGTJCTB94" target="_blank">Applied Data Science Capstone</a></li>
-</ul>
-<p class="muted">Demonstrated practical skills to solve real-world data science challenges with core Python proficiency and data visualization using Matplotlib, Seaborn, and other libraries to create diverse chart types.</p>
-<a href="https://www.credly.com/badges/08457eb3-e218-4c14-81f1-e5fd23236b94/linked_in_profile" target="_blank" class="button secondary">View Badge</a>
-</div>
+        <h2>Key Project Highlights</h2>
+        <div class="card">
+          <h3>Commercial Decision Engine — Forecasting</h3>
+          <p>Scaled forecasting from 3K to 30K SKUs with automated pipelines and back-testing evaluation frameworks.</p>
+        </div>
+        <div class="card">
+          <h3>PO Automation — Inventory Optimization</h3>
+          <p>Algorithmic purchase planning reducing effort from weeks to days while cutting stock-outs by half.</p>
+        </div>
+        <div class="card">
+          <h3>Ads Monetization Analytics Platform</h3>
+          <p>Centralized BI ecosystem with recommendation engines to optimize supplier targeting.</p>
+        </div>
+      </section>
+      <section id="practice-projects">
+        <h2>Practice Projects</h2>
+        <p class="muted">Complete repository of 19+ projects covering advanced analytics, machine learning, and data science applications from ISB AMPBA program.</p>
+        <a href="https://github.com/abhi-2693/Abhinav_demo_projects" target="_blank" rel="noopener noreferrer" class="button">View All Projects</a>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Knowledge Graph–Enhanced RAG System</h3>
+            <p class="muted">Advanced LLM application combining Neo4j knowledge graphs with Wikipedia data for enhanced retrieval.</p>
+            <ul class="clean">
+              <li>Built KG + vector hybrid retrieval using Neo4j</li>
+              <li>Implemented LangChain orchestration for RAG</li>
+              <li>Handled LLM rate limits and configuration</li>
+            </ul>
+            <a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2014:%20Knowledge%20Graph%E2%80%93enhanced%20RAG%20system%20using%20Wikipedia%20data" target="_blank" rel="noopener noreferrer" class="button secondary">View Project</a>
+          </div>
+          <div class="card">
+            <h3>Florida Energy Demand Forecasting App</h3>
+            <p class="muted">End-to-end forecasting application with Streamlit UI and Docker deployment.</p>
+            <ul class="clean">
+              <li>Structured forecasting pipeline with modular architecture</li>
+              <li>Interactive Streamlit interface for predictions</li>
+              <li>Docker packaging for production deployment</li>
+            </ul>
+            <a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2018:%20Forecasting%20App%20%E2%80%94%20Florida%20Energy%20Demand%20Forecasting" target="_blank" rel="noopener noreferrer" class="button secondary">View Project</a>
+          </div>
+          <div class="card">
+            <h3>MLOps — AWS-based App Deployment</h3>
+            <p class="muted">Complete MLOps workflow for deploying Streamlit applications on AWS infrastructure.</p>
+            <ul class="clean">
+              <li>Docker containerization with Docker Compose</li>
+              <li>AWS ECR registry setup and deployment</li>
+              <li>EC2 instance deployment and configuration</li>
+            </ul>
+            <a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2009:%20MLOps%20:%20AWS%20based%20App%20deployment%20-%20Practice" target="_blank" rel="noopener noreferrer" class="button secondary">View Project</a>
+          </div>
+          <div class="card">
+            <h3>Causal Inference Analysis</h3>
+            <p class="muted">Statistical analysis examining wage relationships using regression and omitted variable bias checks.</p>
+            <ul class="clean">
+              <li>Built simple vs multiple regression models</li>
+              <li>Verified omitted-variable-bias relationships</li>
+              <li>Quantified statistical significance of predictors</li>
+            </ul>
+            <a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2006:%20Causal%20Inference%20checks" target="_blank" rel="noopener noreferrer" class="button secondary">View Project</a>
+          </div>
+          <div class="card">
+            <h3>Statistical Analysis &amp; Hypothesis Testing</h3>
+            <p class="muted">Applied statistical methods to examine relationships and test hypotheses using p-values.</p>
+            <ul class="clean">
+              <li>Null and Alternate Hypothesis formulation</li>
+              <li>Statistical significance testing and interpretation</li>
+              <li>Practical application of test statistics</li>
+            </ul>
+            <a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2001:%20Statictical%20Analysis%20:%20Basics%20of%20Hypothesis%20Testing%20and%20undterstanding%20the%20p-value" target="_blank" rel="noopener noreferrer" class="button secondary">View Project</a>
+          </div>
+          <div class="card">
+            <h3>Telecom Churn Analysis</h3>
+            <p class="muted">Multi-technique analysis of telecom churn using LDA, logistic regression, survival analysis, and Poisson regression.</p>
+            <ul class="clean">
+              <li>Applied multiple classification techniques</li>
+              <li>Time-to-event analysis with survival models</li>
+              <li>Comparative performance evaluation</li>
+            </ul>
+            <a href="https://github.com/abhi-2693/Abhinav_demo_projects/tree/main/Project%2010:%20LDA,%20LR,%20Survival%20Analysis%20and%20PoisReg" target="_blank" rel="noopener noreferrer" class="button secondary">View Project</a>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <h2>Education &amp; Certifications</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3><img src="images/ISB.png" alt="ISB"> Indian School of Business (ISB)</h3>
+            <p class="muted">Advanced Management Programme of Business Analytics and AI (AMPBA) — Batch 23 (Jan 2025 – May 2026)</p>
+            <ul class="clean">
+              <li>Machine Learning (Unsupervised and Supervised for Classification and regression problems)</li>
+              <li>Advanced Statistical Modeling and Optimization Techniques</li>
+              <li>Big Data and Data Engineering</li>
+              <li>Knowledge Graphs, RAG for LLM chatbots</li>
+              <li>Deep Learning and Natural Language Processing</li>
+              <li>Business and Industry-Specific Analytics Applications like Forecasting, Pricing, Marketing and Supply chain Analytics</li>
+              <li>Foundations in Data Analytics</li>
+              <li>Business &amp; Industry Applications</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3><img src="images/MIT.png" alt="MIT"> MITx MicroMasters — Supply Chain Management</h3>
+            <p class="muted">May 2023 – Dec 2023</p>
+            <ul class="clean">
+              <li>CTL.SC0x <a href="https://courses.edx.org/certificates/7e27fda800504a238c959ab2df67c482" target="_blank" rel="noopener noreferrer">Supply Chain Analytics</a> (Aug 2023)</li>
+              <li>CTL.SC1x <a href="https://courses.edx.org/certificates/cf5a474557b04c8ea01f3019cbbed76e" target="_blank" rel="noopener noreferrer">Supply Chain Fundamentals</a> (Dec 2023)</li>
+            </ul>
+            <p class="muted">Concepts: Optimization (constrained/unconstrained), Regression, Shortest Path, Traveling Salesman Problem (TSP), Vehicle Routing Problem (VRP), Central Limit Theorem, Linear Programming, Quality Control, Statistical Process Control, Total Quality Management, Design of Experiments, Quality Improvement, Process Capability, Lean Manufacturing, Supply Chain Visibility, Supply Chain Risk Management, Supply Chain Performance Management</p>
+          </div>
+          <div class="card">
+            <h3><img src="images/Coursera.png" alt="Coursera"> TensorFlow in Practice Specialization</h3>
+            <p class="muted">DeepLearning.AI — Issued May 2020</p>
+            <ul class="clean">
+              <li><a href="https://www.coursera.org/account/accomplishments/verify/25Q4ATR3ZB59" target="_blank" rel="noopener noreferrer">Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning</a></li>
+              <li><a href="https://www.coursera.org/account/accomplishments/verify/DMYUCA6AJQ2U" target="_blank" rel="noopener noreferrer">Convolutional Neural Networks in TensorFlow</a></li>
+              <li><a href="https://www.coursera.org/account/accomplishments/verify/Z4AEZGFD7T2N" target="_blank" rel="noopener noreferrer">Natural Language Processing in TensorFlow</a></li>
+              <li><a href="https://www.coursera.org/account/accomplishments/verify/QC8RNJBMS47J" target="_blank" rel="noopener noreferrer">Sequences, Time Series and Prediction</a></li>
+            </ul>
+            <p class="muted">Completed 4-course TensorFlow Developer Professional Certificate: build and train neural networks, apply convolutions for image recognition, and implement NLP systems for speech understanding and analysis.</p>
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/ECQRUA8Y8Y72" target="_blank" rel="noopener noreferrer" class="button secondary">View Specialization Certificate</a>
+          </div>
+          <div class="card">
+            <h3><img src="images/Coursera.png" alt="Coursera"> Applied Data Science Specialist</h3>
+            <p class="muted">IBM — Issued Apr 2020</p>
+            <ul class="clean">
+              <li><a href="https://www.coursera.org/account/accomplishments/verify/28LNGX8ZJ8GT" target="_blank" rel="noopener noreferrer">Python for Data Science, AI &amp; Development</a></li>
+              <li>Python Project for Data Science</li>
+              <li><a href="https://www.coursera.org/account/accomplishments/verify/725LPJKTTZCN" target="_blank" rel="noopener noreferrer">Data Analysis with Python</a></li>
+              <li><a href="https://www.coursera.org/account/accomplishments/verify/DZMDSM2ZK9FZ" target="_blank" rel="noopener noreferrer">Data Visualization with Python</a></li>
+              <li><a href="https://www.coursera.org/account/accomplishments/verify/8GJYGTJCTB94" target="_blank" rel="noopener noreferrer">Applied Data Science Capstone</a></li>
+            </ul>
+            <p class="muted">Demonstrated practical skills to solve real-world data science challenges with core Python proficiency and data visualization using Matplotlib, Seaborn, and other libraries to create diverse chart types.</p>
+            <a href="https://www.credly.com/badges/08457eb3-e218-4c14-81f1-e5fd23236b94/linked_in_profile" target="_blank" rel="noopener noreferrer" class="button secondary">View Badge</a>
+          </div>
 
-<div class="card">
-<h3><img src="images/Coursera.png" alt="Coursera"> Coursera Certifications</h3>
-<ul class="clean">
-<li><a href="https://www.coursera.org/account/accomplishments/certificate/N85UYU48VM93" target="_blank">Leadership and Emotional Intelligence — Aug 2020</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/certificate/K2CTKEYN666L" target="_blank">Introduction to Blockchain Technologies — Jun 2020</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/certificate/XR34LLLKZL44" target="_blank">Business Analytics and Digital Media — Jun 2020</a></li>
-<li><a href="https://www.coursera.org/account/accomplishments/certificate/E3TMPQUKD3QC" target="_blank">R Programming — Aug 2018</a></li>
-</ul>
-<p class="muted">Professional certifications to strengthen core data science, leadership, and emerging technology skills.</p>
-</div>
-<div class="card">
-<h3><img src="images/Mu Sigma.png" alt="Mu Sigma"> Mu Sigma University Certifications</h3>
-<ul class="clean">
-<li>Decision Scientist – Beginner — Sep 2017</li>
-</ul>
-<p class="muted">Internal Mu Sigma training program for foundational decision science skills and methodologies.</p>
-</div>
-<div class="card">
-<h3><img src="images/NIT Srinagar.png" alt="NIT Srinagar"> National Institute of Technology Srinagar</h3>
-<p class="muted">B.Tech, Mechanical Engineering (Aug 2011 – Jun 2015)</p>
-<p class="muted">CGPA: 7.329</p>
-<p class="muted">Project: Design for Semi-Automatic Gear Shifting Mechanism. Developed a novel mechanism that reduces driver effort by 50%.</p>
-<p class="muted">Activities and societies:</p>
-<ul class="clean">
-<li>Member of Student Welfare Committee</li>
-<li>Techvaganza (College Technical Festival) Convener (Planning and Design Team) – 2014</li>
-<li>Techvaganza (College Technical Festival) Team Lead (Design Team) – 2013</li>
-<li>Coordinator of Exuberance (Annual college facilitation ceremony) – 2013</li>
-<li>Mechanical engineering graduate – 2011 Batch; among top 25% of class</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="skills">
-<h2>Skills & Technologies</h2>
-<div class="grid-2">
-<div class="card">
-<h3>Programming & Languages</h3>
-<ul class="clean">
-<li><strong>Python</strong> - Data analysis, ML modeling, automation</li>
-<li><strong>SQL</strong> - Complex queries, data extraction, optimization</li>
-<li><strong>R</strong> - Statistical analysis, hypothesis testing</li>
-</ul>
-</div>
-<div class="card">
-<h3>Machine Learning & Analytics</h3>
-<ul class="clean">
-<li><strong>Forecasting</strong> - Time series, demand planning, inventory optimization</li>
-<li><strong>Optimization</strong> - Linear programming, constrained optimization</li>
-<li><strong>Regression</strong> - Linear, logistic, multivariate models</li>
-<li><strong>A/B Testing</strong> - Experimentation design, statistical significance</li>
-<li><strong>Classification</strong> - Decision trees, SVM, neural networks</li>
-<li><strong>Clustering</strong> - K-means, customer segmentation</li>
-</ul>
-</div>
-<div class="card">
-<h3>Data Engineering & Infrastructure</h3>
-<ul class="clean">
-<li><strong>Redshift</strong> - Data warehousing, modeling, performance optimization</li>
-<li><strong>Kedro</strong> - Data pipelines, workflow management</li>
-<li><strong>Big Data</strong> - PySpark, distributed processing</li>
-<li><strong>ETL/ELT</strong> - Data extraction, transformation, loading</li>
-</ul>
-</div>
-<div class="card">
-<h3>Cloud & Platforms</h3>
-<ul class="clean">
-<li><strong>AWS</strong> - SageMaker, Lightsail, ECR, EC2 deployment</li>
-<li><strong>BI Tools</strong> - Tableau Online, Metabase, dashboarding</li>
-<li><strong>Integration</strong> - Celigo, API management</li>
-<li><strong>Containerization</strong> - Docker, Docker Compose</li>
-</ul>
-</div>
-<div class="card">
-<h3>Libraries & Frameworks</h3>
-<ul class="clean">
-<li><strong>Data Processing</strong> - Pandas, NumPy, data manipulation</li>
-<li><strong>ML Libraries</strong> - Scikit-Learn, TensorFlow, PyTorch</li>
-<li><strong>Deep Learning</strong> - Neural networks, CNNs, RNNs, LLMs</li>
-<li><strong>Visualization</strong> - Matplotlib, Seaborn, Plotly</li>
-<li><strong>NLP</strong> - Transformers, BERT, text processing</li>
-</ul>
-</div>
-<div class="card">
-<h3>Business & Domain Expertise</h3>
-<ul class="clean">
-<li><strong>E-commerce</strong> - Supply chain, inventory, pricing</li>
-<li><strong>Marketplaces</strong> - Monetization, ads analytics</li>
-<li><strong>Financial Services</strong> - Risk assessment, forecasting</li>
-<li><strong>Operations</strong> - Process optimization, efficiency</li>
-<li><strong>Product Analytics</strong> - User behavior, conversion</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: abhinavp2693@gmail.com</p>
-<p>Phone: +91-9513344229</p>
-<p>Bangalore, Karnataka, India</p>
-<p>
-<a href="https://www.linkedin.com/in/abhinav-paul-a512749b">LinkedIn</a> |
-<a href="https://github.com/abhi-2693">GitHub</a>
-</p>
-</section>
-<footer>
-<p>© 2026 - Abhinav Paul</p>
-</footer>
-</body>
+          <div class="card">
+            <h3><img src="images/Coursera.png" alt="Coursera"> Coursera Certifications</h3>
+            <ul class="clean">
+              <li><a href="https://www.coursera.org/account/accomplishments/certificate/N85UYU48VM93" target="_blank" rel="noopener noreferrer">Leadership and Emotional Intelligence — Aug 2020</a></li>
+              <li><a href="https://www.coursera.org/account/accomplishments/certificate/K2CTKEYN666L" target="_blank" rel="noopener noreferrer">Introduction to Blockchain Technologies — Jun 2020</a></li>
+              <li><a href="https://www.coursera.org/account/accomplishments/certificate/XR34LLLKZL44" target="_blank" rel="noopener noreferrer">Business Analytics and Digital Media — Jun 2020</a></li>
+              <li><a href="https://www.coursera.org/account/accomplishments/certificate/E3TMPQUKD3QC" target="_blank" rel="noopener noreferrer">R Programming — Aug 2018</a></li>
+            </ul>
+            <p class="muted">Professional certifications to strengthen core data science, leadership, and emerging technology skills.</p>
+          </div>
+          <div class="card">
+            <h3><img src="images/Mu Sigma.png" alt="Mu Sigma"> Mu Sigma University Certifications</h3>
+            <ul class="clean">
+              <li>Decision Scientist – Beginner — Sep 2017</li>
+            </ul>
+            <p class="muted">Internal Mu Sigma training program for foundational decision science skills and methodologies.</p>
+          </div>
+          <div class="card">
+            <h3><img src="images/NIT Srinagar.png" alt="NIT Srinagar"> National Institute of Technology Srinagar</h3>
+            <p class="muted">B.Tech, Mechanical Engineering (Aug 2011 – Jun 2015)</p>
+            <p class="muted">CGPA: 7.329</p>
+            <p class="muted">Project: Design for Semi-Automatic Gear Shifting Mechanism. Developed a novel mechanism that reduces driver effort by 50%.</p>
+            <p class="muted">Activities and societies:</p>
+            <ul class="clean">
+              <li>Member of Student Welfare Committee</li>
+              <li>Techvaganza (College Technical Festival) Convener (Planning and Design Team) – 2014</li>
+              <li>Techvaganza (College Technical Festival) Team Lead (Design Team) – 2013</li>
+              <li>Coordinator of Exuberance (Annual college facilitation ceremony) – 2013</li>
+              <li>Mechanical engineering graduate – 2011 Batch; among top 25% of class</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Skills &amp; Technologies</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Programming &amp; Languages</h3>
+            <ul class="clean">
+              <li><strong>Python</strong> - Data analysis, ML modeling, automation</li>
+              <li><strong>SQL</strong> - Complex queries, data extraction, optimization</li>
+              <li><strong>R</strong> - Statistical analysis, hypothesis testing</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Machine Learning &amp; Analytics</h3>
+            <ul class="clean">
+              <li><strong>Forecasting</strong> - Time series, demand planning, inventory optimization</li>
+              <li><strong>Optimization</strong> - Linear programming, constrained optimization</li>
+              <li><strong>Regression</strong> - Linear, logistic, multivariate models</li>
+              <li><strong>A/B Testing</strong> - Experimentation design, statistical significance</li>
+              <li><strong>Classification</strong> - Decision trees, SVM, neural networks</li>
+              <li><strong>Clustering</strong> - K-means, customer segmentation</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Data Engineering &amp; Infrastructure</h3>
+            <ul class="clean">
+              <li><strong>Redshift</strong> - Data warehousing, modeling, performance optimization</li>
+              <li><strong>Kedro</strong> - Data pipelines, workflow management</li>
+              <li><strong>Big Data</strong> - PySpark, distributed processing</li>
+              <li><strong>ETL/ELT</strong> - Data extraction, transformation, loading</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Cloud &amp; Platforms</h3>
+            <ul class="clean">
+              <li><strong>AWS</strong> - SageMaker, Lightsail, ECR, EC2 deployment</li>
+              <li><strong>BI Tools</strong> - Tableau Online, Metabase, dashboarding</li>
+              <li><strong>Integration</strong> - Celigo, API management</li>
+              <li><strong>Containerization</strong> - Docker, Docker Compose</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Libraries &amp; Frameworks</h3>
+            <ul class="clean">
+              <li><strong>Data Processing</strong> - Pandas, NumPy, data manipulation</li>
+              <li><strong>ML Libraries</strong> - Scikit-Learn, TensorFlow, PyTorch</li>
+              <li><strong>Deep Learning</strong> - Neural networks, CNNs, RNNs, LLMs</li>
+              <li><strong>Visualization</strong> - Matplotlib, Seaborn, Plotly</li>
+              <li><strong>NLP</strong> - Transformers, BERT, text processing</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Business &amp; Domain Expertise</h3>
+            <ul class="clean">
+              <li><strong>E-commerce</strong> - Supply chain, inventory, pricing</li>
+              <li><strong>Marketplaces</strong> - Monetization, ads analytics</li>
+              <li><strong>Financial Services</strong> - Risk assessment, forecasting</li>
+              <li><strong>Operations</strong> - Process optimization, efficiency</li>
+              <li><strong>Product Analytics</strong> - User behavior, conversion</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: abhinavp2693@gmail.com</p>
+        <p>Phone: +91-9513344229</p>
+        <p>Bangalore, Karnataka, India</p>
+        <p>
+          <a href="https://www.linkedin.com/in/abhinav-paul-a512749b">LinkedIn</a> |
+          <a href="https://github.com/abhi-2693">GitHub</a>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 - Abhinav Paul</p>
+    </footer>
+  </body>
 </html>
