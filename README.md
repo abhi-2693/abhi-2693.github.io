@@ -6,6 +6,13 @@ This repository contains the source code for my personal portfolio website, show
 
 ## Website Content
 
+### Impact & Achievements
+- **30K SKUs Forecasted** - Scaled forecasting methodology from 3K to 30K SKUs
+- **50% Stock-out Reduction** - Through automated PO generation and buffer management
+- **3-4 Week Time Savings** - Reduced quarterly ordering effort via automation
+- **$400K Monthly Savings** - Delivered through vendor performance tracking
+- **Automated BI Systems** - Built centralized analytics ecosystems
+
 ### Professional Experience
 - **Senior Data Scientist** at Razor Group (2022-Present)
 - **Senior Business Analyst** at Meesho (2020-2021) 
@@ -19,6 +26,14 @@ This repository contains the source code for my personal portfolio website, show
 - Ads Monetization Analytics Platform
 - Vendor Performance Reporting Products
 
+### Practice Projects
+- **Knowledge Graph–Enhanced RAG System** - Neo4j + Wikipedia data for enhanced retrieval
+- **Florida Energy Demand Forecasting App** - Streamlit UI with Docker deployment
+- **MLOps AWS Deployment** - Complete cloud deployment workflow
+- **Causal Inference Analysis** - Statistical analysis with regression models
+- **Statistical Analysis & Hypothesis Testing** - Applied statistical methods
+- **Telecom Churn Analysis** - Multi-technique ML analysis
+
 ### Education & Certifications
 - **Advanced Management Programme in Business Analytics and AI** - Indian School of Business (ISB)
 - **MITx MicroMasters in Supply Chain Management**
@@ -28,9 +43,9 @@ This repository contains the source code for my personal portfolio website, show
 
 ### Technical Skills
 - **Programming**: Python, SQL
-- **ML & Analytics**: Forecasting, Optimization, Regression, A/B Testing
-- **Data Engineering**: Redshift, Kedro pipelines, BI frameworks
-- **Cloud & Platforms**: AWS, SageMaker, Tableau, Metabase
+- **ML & Analytics**: Forecasting, Optimization, Regression, A/B Testing, Experimentation
+- **Data Engineering**: Redshift modeling, Kedro pipelines, Data assets & reporting frameworks
+- **Cloud & Platforms**: AWS (SageMaker, Lightsail), Celigo, Metabase, Tableau Online
 - **Libraries**: Pandas, NumPy, Scikit-Learn, TensorFlow
 
 ## Repository Structure
@@ -48,6 +63,18 @@ This repository contains the source code for my personal portfolio website, show
 - **Design**: Responsive grid layout with modern UI components
 - **Features**: Smooth scrolling navigation, dropdown menus, card-based layouts
 - **Styling**: Custom CSS with dark theme and green accent colors
+
+## Website Sections
+
+- **About** - Professional summary and core strengths
+- **Impact** - Quantified business achievements and metrics
+- **Featured Work** - Key professional project highlights
+- **Experience** - Detailed work history with company logos
+- **Projects** - Professional project portfolio
+- **Practice Projects** - Academic projects from ISB AMPBA program
+- **Education** - Academic background and certifications
+- **Skills** - Technical competencies and tools
+- **Contact** - Professional contact information and links
 
 ## Getting Started
 
