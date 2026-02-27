@@ -2,42 +2,70 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Your Name | Portfolio</title>
+<title>Abhinav Paul | Lead Data Scientist</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background: #0f172a;
+    font-family: Arial, sans-serif;
+    background: #0b1120;
     color: #e5e7eb;
+    line-height: 1.6;
 }
 
 header {
-    text-align: center;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
     padding: 80px 20px;
-    background: linear-gradient(135deg, #3b82f6, #9333ea);
+    text-align: center;
 }
 
 header h1 { font-size: 3em; margin: 0; }
-header p { font-size: 1.2em; }
+header p { font-size: 1.3em; margin-top: 10px; }
 
 section {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     padding: 60px 20px;
 }
 
-h2 { color: #60a5fa; }
-
-.project {
-    background: #1e293b;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
+h2 {
+    color: #60a5fa;
+    border-bottom: 2px solid #1f2937;
+    padding-bottom: 10px;
 }
 
-a { color: #93c5fd; text-decoration: none; }
+.card {
+    background: #111827;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.metric {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.metric h3 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #93c5fd;
+}
+
+a {
+    color: #93c5fd;
+    text-decoration: none;
+}
 
 footer {
     text-align: center;
@@ -50,57 +78,173 @@ footer {
 <body>
 
 <header>
-    <h1>Your Name</h1>
-    <p>Your Role • Your Expertise • Location</p>
+<h1>Abhinav Paul</h1>
+<p>Lead Data Scientist | Decision Systems & Applied AI</p>
+<p>Forecasting • Optimization • Supply Chain Analytics • GenAI</p>
+
+<p>
+<a href="Abhinav_Paul_Resume.pdf" target="_blank">📄 Download Resume</a> |
+<a href="https://www.linkedin.com/in/abhinav-paul-a512749b" target="_blank">LinkedIn</a> |
+<a href="https://github.com/abhi-2693" target="_blank">GitHub</a>
+</p>
 </header>
 
 <section>
-    <h2>About Me</h2>
-    <p>
-        Write a short professional summary about your career,
-        strengths, and interests.
-    </p>
+<h2>Executive Summary</h2>
+
+<p>
+Lead Data Scientist with 10+ years of experience delivering large-scale analytics,
+AI solutions, and decision systems across e-commerce, marketplaces,
+hospitality, and financial services. Specialized in forecasting,
+inventory optimization, monetization analytics, and automation platforms
+that drive measurable business impact.
+</p>
 </section>
 
 <section>
-    <h2>Skills</h2>
-    <p>Python • Java • AI • Cloud • Data Analytics • Leadership</p>
+<h2>Career Impact</h2>
+
+<div class="metrics">
+
+<div class="metric">
+<h3>3K → 30K</h3>
+<p>Scaled forecasting systems across SKUs</p>
+</div>
+
+<div class="metric">
+<h3>~50%</h3>
+<p>Reduction in stock-outs via PO automation</p>
+</div>
+
+<div class="metric">
+<h3>3–4 Weeks → Days</h3>
+<p>Planning cycle time reduction</p>
+</div>
+
+<div class="metric">
+<h3>$400K / Month</h3>
+<p>Cost savings delivered (Mu Sigma)</p>
+</div>
+
+<div class="metric">
+<h3>3× Growth</h3>
+<p>Sales uplift in OYO micro-markets</p>
+</div>
+
+</div>
 </section>
 
 <section>
-    <h2>Projects</h2>
+<h2>Professional Experience</h2>
 
-    <div class="project">
-        <h3>Project Title</h3>
-        <p>Description of what you built and impact.</p>
-        <a href="#">View Project →</a>
-    </div>
+<div class="card">
+<h3>Razor Group — Senior Data Scientist (2022–Present)</h3>
+<ul>
+<li>Scaled forecasting framework to support 30K+ SKUs</li>
+<li>Built product opportunity sourcing engine</li>
+<li>Developed automated PO sizing for inventory optimization</li>
+<li>Created evaluation frameworks for demand models</li>
+</ul>
+</div>
 
-    <div class="project">
-        <h3>Project Title</h3>
-        <p>Description of another project.</p>
-        <a href="#">View Project →</a>
-    </div>
+<div class="card">
+<h3>Meesho — Senior Business Analyst (2020–2021)</h3>
+<ul>
+<li>Built Ads monetization analytics ecosystem</li>
+<li>Developed recommendation systems for supplier targeting</li>
+<li>Supported international expansion analytics (Indonesia)</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>OYO — Program Manager (2019–2020)</h3>
+<ul>
+<li>Created performance dashboards for micro-markets</li>
+<li>Enabled 3× sales growth prior to COVID slowdown</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Flipkart — Product Analyst (2019)</h3>
+<ul>
+<li>Analyzed payments funnel to reduce drop-offs</li>
+<li>Partnered with product teams on UX improvements</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Mu Sigma — Decision Scientist (2015–2018)</h3>
+<ul>
+<li>Delivered vendor analytics driving major cost savings</li>
+<li>Built enterprise KPI portals consolidating legacy systems</li>
+</ul>
+</div>
 
 </section>
 
 <section>
-    <h2>Resume</h2>
-    <p><a href="resume.pdf" target="_blank">Download Resume</a></p>
+<h2>Flagship Project Areas</h2>
+
+<div class="card">
+<h3>Forecasting & Optimization</h3>
+<p>Demand forecasting, inventory planning, supply chain analytics</p>
+</div>
+
+<div class="card">
+<h3>Growth & Monetization Analytics</h3>
+<p>Ads performance, recommendation systems, funnel analysis</p>
+</div>
+
+<div class="card">
+<h3>AI / Machine Learning</h3>
+<p>Time series models, optimization algorithms, GenAI initiatives</p>
+</div>
+
 </section>
 
 <section>
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
-    <p>
-        <a href="#">LinkedIn</a> |
-        <a href="#">GitHub</a> |
-        <a href="#">Twitter</a>
-    </p>
+<h2>Education & Credentials</h2>
+
+<ul>
+<li><strong>ISB</strong> — Advanced Management Programme in Business Analytics (In Progress)</li>
+<li><strong>MITx</strong> — MicroMasters in Supply Chain Management</li>
+<li><strong>NIT Srinagar</strong> — B.Tech Mechanical Engineering</li>
+</ul>
+</section>
+
+<section>
+<h2>Skills</h2>
+
+<p>
+Python • SQL • Machine Learning • Forecasting • Optimization • A/B Testing<br>
+AWS • Redshift • SageMaker • Tableau • Metabase
+</p>
+</section>
+
+<section>
+<h2>Awards</h2>
+
+<ul>
+<li>Mu Sigma SPOT Award — Leadership & Client Impact</li>
+<li>Mu Sigma SPOT Award — Delivery Excellence</li>
+</ul>
+</section>
+
+<section>
+<h2>Contact</h2>
+
+<p>Email: abhinavp2693@gmail.com</p>
+<p>Bangalore, India</p>
+
+<p>
+<a href="https://www.linkedin.com/in/abhinav-paul-a512749b">LinkedIn</a> |
+<a href="https://github.com/abhi-2693">GitHub</a>
+</p>
+
 </section>
 
 <footer>
-    <p>© 2026 Your Name</p>
+<p>© 2026 Abhinav Paul</p>
 </footer>
 
 </body>
