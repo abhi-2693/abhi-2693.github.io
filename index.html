@@ -6,27 +6,70 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+html { scroll-behavior: smooth; }
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
     background: #0b1120;
     color: #e5e7eb;
-    line-height: 1.6;
 }
 
-header {
-    background: linear-gradient(135deg, #2563eb, #7c3aed);
-    padding: 80px 20px;
+/* NAVBAR */
+
+nav {
+    position: sticky;
+    top: 0;
+    background: #020617;
+    padding: 15px 20px;
+    z-index: 1000;
     text-align: center;
 }
 
-header h1 { font-size: 3em; margin: 0; }
-header p { font-size: 1.3em; margin-top: 10px; }
+nav a {
+    margin: 0 15px;
+    color: #93c5fd;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* HERO */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+}
+
+.hero-text {
+    max-width: 520px;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.3em;
+}
+
+.hero-img img {
+    width: 220px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 4px solid white;
+}
+
+/* SECTIONS */
 
 section {
     max-width: 1000px;
     margin: auto;
-    padding: 60px 20px;
+    padding: 70px 20px;
 }
 
 h2 {
@@ -42,6 +85,8 @@ h2 {
     margin-top: 20px;
 }
 
+/* METRICS */
+
 .metrics {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
@@ -51,21 +96,22 @@ h2 {
 
 .metric {
     background: #1f2937;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 12px;
     text-align: center;
 }
 
 .metric h3 {
     margin: 0;
-    font-size: 1.8em;
+    font-size: 2em;
     color: #93c5fd;
 }
 
-a {
-    color: #93c5fd;
-    text-decoration: none;
-}
+/* LINKS */
+
+a { color: #93c5fd; text-decoration: none; }
+
+/* FOOTER */
 
 footer {
     text-align: center;
@@ -77,19 +123,44 @@ footer {
 
 <body>
 
+<nav>
+<a href="#about">About</a>
+<a href="#impact">Impact</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+
 <header>
+
+<div class="hero-text">
 <h1>Abhinav Paul</h1>
-<p>Lead Data Scientist | Decision Systems & Applied AI</p>
-<p>Forecasting • Optimization • Supply Chain Analytics • GenAI</p>
+<p><strong>Lead Data Scientist | Decision Systems & Applied AI</strong></p>
 
 <p>
-<a href="Abhinav_Paul_Resume.pdf" target="_blank">📄 Download Resume</a> |
-<a href="https://www.linkedin.com/in/abhinav-paul-a512749b" target="_blank">LinkedIn</a> |
-<a href="https://github.com/abhi-2693" target="_blank">GitHub</a>
+I build scalable data products that drive revenue, optimize operations,
+and enable strategic decision-making at enterprise scale.
 </p>
+
+<p>
+Forecasting • Optimization • Supply Chain Analytics • GenAI
+</p>
+
+<p>
+<a href="Abhinav_Paul_Resume.pdf" target="_blank">📄 Resume</a> |
+<a href="https://www.linkedin.com/in/abhinav-paul-a512749b">LinkedIn</a> |
+<a href="https://github.com/abhi-2693">GitHub</a>
+</p>
+</div>
+
+<div class="hero-img">
+<img src="5A2930FE-5AF4-4054-B55E-298C099D59E9.JPG" alt="Abhinav Paul">
+</div>
+
 </header>
 
-<section>
+<section id="about">
 <h2>Executive Summary</h2>
 
 <p>
@@ -99,90 +170,73 @@ hospitality, and financial services. Specialized in forecasting,
 inventory optimization, monetization analytics, and automation platforms
 that drive measurable business impact.
 </p>
+
 </section>
 
-<section>
+<section id="impact">
 <h2>Career Impact</h2>
 
 <div class="metrics">
 
 <div class="metric">
-<h3>3K → 30K</h3>
-<p>Scaled forecasting systems across SKUs</p>
+<h3>30K+</h3>
+<p>SKUs supported in forecasting systems</p>
 </div>
 
 <div class="metric">
 <h3>~50%</h3>
-<p>Reduction in stock-outs via PO automation</p>
+<p>Reduction in stock-outs</p>
 </div>
 
 <div class="metric">
-<h3>3–4 Weeks → Days</h3>
-<p>Planning cycle time reduction</p>
+<h3>Weeks → Days</h3>
+<p>Planning cycle reduction</p>
 </div>
 
 <div class="metric">
 <h3>$400K / Month</h3>
-<p>Cost savings delivered (Mu Sigma)</p>
+<p>Cost savings delivered</p>
 </div>
 
 <div class="metric">
 <h3>3× Growth</h3>
-<p>Sales uplift in OYO micro-markets</p>
+<p>Sales uplift in OYO markets</p>
 </div>
 
 </div>
 </section>
 
-<section>
+<section id="experience">
 <h2>Professional Experience</h2>
 
 <div class="card">
 <h3>Razor Group — Senior Data Scientist (2022–Present)</h3>
-<ul>
-<li>Scaled forecasting framework to support 30K+ SKUs</li>
-<li>Built product opportunity sourcing engine</li>
-<li>Developed automated PO sizing for inventory optimization</li>
-<li>Created evaluation frameworks for demand models</li>
-</ul>
+<p>Forecasting systems, inventory optimization, decision engines</p>
 </div>
 
 <div class="card">
-<h3>Meesho — Senior Business Analyst (2020–2021)</h3>
-<ul>
-<li>Built Ads monetization analytics ecosystem</li>
-<li>Developed recommendation systems for supplier targeting</li>
-<li>Supported international expansion analytics (Indonesia)</li>
-</ul>
+<h3>Meesho — Senior Business Analyst</h3>
+<p>Ads monetization analytics and international expansion</p>
 </div>
 
 <div class="card">
-<h3>OYO — Program Manager (2019–2020)</h3>
-<ul>
-<li>Created performance dashboards for micro-markets</li>
-<li>Enabled 3× sales growth prior to COVID slowdown</li>
-</ul>
+<h3>OYO — Program Manager</h3>
+<p>Performance analytics enabling rapid sales growth</p>
 </div>
 
 <div class="card">
-<h3>Flipkart — Product Analyst (2019)</h3>
-<ul>
-<li>Analyzed payments funnel to reduce drop-offs</li>
-<li>Partnered with product teams on UX improvements</li>
-</ul>
+<h3>Flipkart — Product Analyst</h3>
+<p>Payments funnel analytics and UX optimization</p>
 </div>
 
 <div class="card">
-<h3>Mu Sigma — Decision Scientist (2015–2018)</h3>
-<ul>
-<li>Delivered vendor analytics driving major cost savings</li>
-<li>Built enterprise KPI portals consolidating legacy systems</li>
-</ul>
+<h3>Mu Sigma — Decision Scientist</h3>
+<p>Enterprise analytics platforms and cost optimization</p>
 </div>
 
 </section>
 
-<section>
+<section id="projects">
 <h2>Flagship Project Areas</h2>
 
 <div class="card">
@@ -192,7 +246,7 @@ that drive measurable business impact.
 
 <div class="card">
 <h3>Growth & Monetization Analytics</h3>
-<p>Ads performance, recommendation systems, funnel analysis</p>
+<p>Recommendation engines, ads analytics, funnel optimization</p>
 </div>
 
 <div class="card">
@@ -202,35 +256,17 @@ that drive measurable business impact.
 
 </section>
 
-<section>
-<h2>Education & Credentials</h2>
-
-<ul>
-<li><strong>ISB</strong> — Advanced Management Programme in Business Analytics (In Progress)</li>
-<li><strong>MITx</strong> — MicroMasters in Supply Chain Management</li>
-<li><strong>NIT Srinagar</strong> — B.Tech Mechanical Engineering</li>
-</ul>
-</section>
-
-<section>
+<section id="skills">
 <h2>Skills</h2>
 
 <p>
 Python • SQL • Machine Learning • Forecasting • Optimization • A/B Testing<br>
 AWS • Redshift • SageMaker • Tableau • Metabase
 </p>
+
 </section>
 
-<section>
-<h2>Awards</h2>
-
-<ul>
-<li>Mu Sigma SPOT Award — Leadership & Client Impact</li>
-<li>Mu Sigma SPOT Award — Delivery Excellence</li>
-</ul>
-</section>
-
-<section>
+<section id="contact">
 <h2>Contact</h2>
 
 <p>Email: abhinavp2693@gmail.com</p>
