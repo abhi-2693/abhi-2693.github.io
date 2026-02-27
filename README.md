@@ -2,15 +2,20 @@
 
 ## Overview
 
-This repository contains the source code for my personal portfolio website, showcasing my professional journey as a Senior Data Scientist. The site demonstrates my expertise in data science, machine learning, and business analytics across various industries.
+This repository contains the source code for my personal portfolio website, showcasing my professional journey as a Senior Data Scientist. The site demonstrates my expertise in data science, machine learning, and business analytics across various industries including e-commerce, hospitality, and insurance domains.
 
 ## Website Content
+
+### About
+- **Professional Summary** - Results-driven data scientist with expertise in Business, Product, and Data Science
+- **Core Competencies** - Forecasting systems, BI platforms, experimentation, cross-functional delivery, technical stack
 
 ### Impact & Achievements
 - **30K SKUs Forecasted** - Scaled forecasting methodology from 3K to 30K SKUs
 - **50% Stock-out Reduction** - Through automated PO generation and buffer management
 - **3-4 Week Time Savings** - Reduced quarterly ordering effort via automation
 - **$400K Monthly Savings** - Delivered through vendor performance tracking
+- **Operational Efficiency** - Data-driven decision making for East region operations
 - **Automated BI Systems** - Built centralized analytics ecosystems
 
 ### Professional Experience
@@ -20,11 +25,11 @@ This repository contains the source code for my personal portfolio website, show
 - **Product Analyst** at Flipkart (2019)
 - **Decision Scientist** roles at Mu Sigma (2015-2018)
 
-### Featured Projects
-- Commercial Decision Engine - Forecasting Systems
-- Purchase Order Automation - Inventory Optimization
-- Ads Monetization Analytics Platform
-- Vendor Performance Reporting Products
+### Professional Projects
+- **Commercial Decision Engine** - Forecasting systems scaling from 3K to 30K SKUs
+- **PO Automation** - Inventory optimization reducing ordering effort from weeks to days
+- **Ads Monetization BI** - Centralized analytics and recommendation engines
+- **Vendor Performance Reporting** - Business improvement programs and KPI tracking
 
 ### Practice Projects
 - **Knowledge Graph–Enhanced RAG System** - Neo4j + Wikipedia data for enhanced retrieval
@@ -42,11 +47,12 @@ This repository contains the source code for my personal portfolio website, show
 - Multiple Coursera certifications in Data Science, Blockchain, and Business Analytics
 
 ### Technical Skills
-- **Programming**: Python, SQL
-- **ML & Analytics**: Forecasting, Optimization, Regression, A/B Testing, Experimentation
-- **Data Engineering**: Redshift modeling, Kedro pipelines, Data assets & reporting frameworks
-- **Cloud & Platforms**: AWS (SageMaker, Lightsail), Celigo, Metabase, Tableau Online
-- **Libraries**: Pandas, NumPy, Scikit-Learn, TensorFlow
+- **Programming & Languages** - Python, SQL, R
+- **Machine Learning & Analytics** - Forecasting, Optimization, Regression, A/B Testing, Classification, Clustering
+- **Data Engineering & Infrastructure** - Redshift, Kedro, Big Data, ETL/ELT
+- **Cloud & Platforms** - AWS, BI Tools, Integration, Containerization
+- **Libraries & Frameworks** - Data Processing, ML Libraries, Deep Learning, Visualization, NLP
+- **Business & Domain Expertise** - E-commerce, Marketplaces, Financial Services, Operations, Product Analytics
 
 ## Repository Structure
 
@@ -66,11 +72,10 @@ This repository contains the source code for my personal portfolio website, show
 
 ## Website Sections
 
-- **About** - Professional summary and core strengths
+- **About** - Professional summary and core competencies
 - **Impact** - Quantified business achievements and metrics
-- **Featured Work** - Key professional project highlights
 - **Experience** - Detailed work history with company logos
-- **Projects** - Professional project portfolio
+- **Professional Projects** - Key professional project highlights
 - **Practice Projects** - Academic projects from ISB AMPBA program
 - **Education** - Academic background and certifications
 - **Skills** - Technical competencies and tools
